@@ -1,0 +1,434 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik:regular,bold&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Raleway:extrabold,bold&display=swap");
+
+*. *::after, *::before {
+	border: 0;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+font-weight: inherit;
+font-size: inherit;
+}
+ol, ul, li {
+	list-style: none;
+}  
+a {
+	text-decoration: none;
+}
+html, body {
+	height: 100%;
+	line-height: 1;
+}
+body {
+font-family: Rubik;
+font-weight: bold;
+}
+.global {
+
+}
+.header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 37px 43px 0 51px;
+}
+.header_name {
+	font-size: 18px;
+line-height: 21px;
+align-self: center;
+}
+.orange {
+color: #EC5863;
+}
+.header_text_menu {
+	font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 12px;
+/* identical to box height */
+
+letter-spacing: 0.14em;
+
+color: #000000;
+}
+.header_symbol, .header_menu, .header_download {
+	display: flex;
+}
+.header_menu {
+	column-gap: 40px;
+}
+.header_button {
+	transition: background-color 0.7s linear;
+	font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 10px;
+line-height: 12px;
+/* identical to box height */
+width: 130px;
+height: 40px;
+letter-spacing: 0.14em;
+background-color: 
+#4285F4;
+color: #FCFDFE;
+border-radius: 5px;
+}
+.header_button:hover {
+	  background-color: rgba(58, 9, 219, 0.4);
+
+}
+.header_pic {
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: -9999;
+	object-fit: cover;
+	height: 100%;
+}
+@media screen and (max-width: 800px) {
+	.header {
+		flex-wrap: wrap;
+
+	}
+	.header_symbol {
+		justify-content: center;
+	}
+	.header_menu {
+		padding-top: 10px;
+		padding-bottom: 20px;
+
+	}
+	
+}
+.main {
+	margin-top: 90px;
+	margin-left: 69px;
+	margin-bottom: 148px;
+	display: flex;
+	align-items: center;
+}
+.main_left {
+	max-width: 497px;
+	max-height: 220px;
+}
+.main-right {
+flex: 1 1 auto;
+}
+.main-img {
+	object-fit: cover;
+}
+.main_text {
+	font-weight: 700;
+	font-size: 44px;
+	line-height: 126%;
+	margin-bottom: 12px;
+}
+.blue {
+	color: #4285F4;
+}
+.main_second_text {
+	font-weight: 400;
+font-size: 12px;
+line-height: 138.5%;
+/* or 17px */
+margin-bottom: 24px;
+letter-spacing: 0.08em;
+font-feature-settings: 'pnum' on, 'lnum' on;
+
+color: #616161;
+}
+.main_button {
+transition: background-color 0.7s linear;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 10px;
+line-height: 12px;
+/* identical to box height */
+
+letter-spacing: 0.14em;
+background-color: #EC5863;
+border-radius: 5px;
+color: #FCFDFE;
+width: 144px;
+height: 40px;
+}
+.main_button:hover {
+	    background-color: rgba(199, 76, 76, 1);
+
+
+}
+@media screen and (max-width: 900px) {
+	.middle {
+
+	}
+	.global {
+		margin-left: -40px;
+		padding-left: 
+	}
+	.main_left {
+		margin-top: -310px;
+	}
+	.head_footer {
+		margin-top: -120px;
+	}
+}
+.head_footer {
+	display: flex;
+	align-items: center;
+	margin-left: 58px;
+	margin-bottom: 38px;
+	padding-bottom: 10px;
+}
+.footer_artist {
+margin-top: -5px;
+}
+.footer_img {
+	margin-right: 12px;
+	}
+.footer_name {
+color: #B0B0B0;
+font-weight: 400;
+font-size: 13px;
+line-height: 126%;
+letter-spacing: 0.08em;
+margin-bottom: 5px;
+}
+.footer_video {
+	font-size: 9px;
+	font-weight: 400;
+	letter-spacing: 0.165em;
+	text-transform: uppercase;
+}
+
+.middle {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	padding-top: 79px;
+	column-gap: 149px;
+	margin-bottom: 79px;
+	
+}
+.middle_right {
+	max-width: 379px;
+	max-height: 238px;
+	align-self: center;
+}
+
+.talk {
+	padding-top: 132px;
+
+}
+.talk_hat {
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+.talk_pic {
+	position: absolute;
+	padding-bottom: 15px;
+	padding-left: 20px;
+}
+.talk_block_hat {
+    position: relative;
+	display: flex;
+	justify-content: space-around;
+    align-items: center;
+    
+	width: 654px;
+	height: 117px;
+
+background: #FFFFFF;
+box-shadow: 0px 2px 24px rgba(88, 126, 236, 0.15);
+border-radius: 16px;
+
+}
+
+.talk_cifri {
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 43px;
+letter-spacing: 0.14em;
+color: #EC5863;
+}
+.talk_info {
+	margin-top: 5px;
+	font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 11px;
+line-height: 13px;
+letter-spacing: 0.37em;
+text-transform: uppercase;
+}
+.talk_body {
+	margin-top: 130px;
+	margin-bottom: 112px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	row-gap: 20px;
+}
+.talk_left {
+	max-width: 393px;
+	max-height: 181px;
+
+}
+.talk_right {
+	padding: 10px;
+}
+.health_hat {
+	padding-top: 79.59px;
+	padding: 10px;
+	
+	
+}
+.health_main_hat {
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+text-align: center;
+font-size: 44px;
+line-height: 126%;
+margin-bottom: 14px;
+}
+.health_second_hat {
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+display: flex;
+justify-content: center;
+line-height: 138.5%;
+margin-bottom: 46px;
+letter-spacing: 0.08em;
+}
+.health_block {
+	display: flex;
+	justify-content: center;
+	column-gap: 72px;
+	padding-top: 40px;
+	
+	
+}
+.health_block_content {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	max-width: 278.17px;
+	max-height: 276.52px;
+	justify-content: center;
+	align-items: center;
+	background-color: #FFF;
+	padding: 36.65px 17px;
+box-shadow: 0px 4px 18px rgba(88, 126, 236, 0.18);
+border-radius: 8px;
+
+}
+.health_pic {
+	margin-bottom: 58px;
+}
+.first_pic {
+	position:absolute ;
+	left: -30px;
+	bottom: -45px;
+	z-index: -10;
+}
+.second_pic {
+position: absolute;
+top: 31.31px;
+right: -51.65px;
+z-index: -30;
+
+}
+.third_pic {
+position: absolute;
+right: -80px;
+bottom: -46.86px;
+z-index: -12;
+
+}
+.fourth_pic {
+position: absolute;
+top: -46.15px;
+right: -31.49px;
+z-index: -29;
+
+}
+.health_main_text {
+margin-bottom: 4px;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 138.5%;
+/* or 22px */
+
+letter-spacing: 0.08em;
+}
+.health_second_text {
+	color: 616161#;
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 138.5%;
+/* or 17px */
+justify-content: center;
+
+letter-spacing: 0.08em;
+}
+.health_links {
+	margin-top: 74.83px;
+	display: flex;
+	justify-content: center;
+	column-gap: 56.59px;
+	padding-bottom: 46.9px;
+
+}
+@media screen and (max-width: 800px) {
+
+.talk_block_hat {
+	width: 600px;
+}
+}
+@media screen and (max-width: 650px) {
+
+.talk_block_hat {
+	width: 450px;
+}
+.health_block {
+	column-gap: 30px;
+}
+}
+@media screen and (max-width: 500px) {
+
+.talk_block_hat {
+	width: 400px;
+}
+.health_block {
+	flex-wrap: wrap;
+	row-gap: 30px;
+}
+}
+@media screen and (max-width: 400px) {
+
+.talk_block_hat {
+	width: 300px;
+}
+}
